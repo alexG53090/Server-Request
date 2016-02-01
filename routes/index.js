@@ -8,11 +8,8 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/unirest', function(req, res, next) {
-  
   unirest.get('https://reddit.com/.json')
-
   .end(function (response) {
-
     res.json({ resposne: response});
   });
 });
