@@ -1,5 +1,5 @@
 # Server-Request
-Server-side requests w/ unirest
+Server-side requests w/ unirest :zap:
 
 ### Practice making requests form the server
 
